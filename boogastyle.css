@@ -1,0 +1,48 @@
+body {
+	font-family: 'montserrat', sans-serif;
+	background: #eee;
+	color: #333;
+  padding: 50px 0;
+}
+
+/*
+	Content
+*/
+.content {
+	position: relative;
+}
+
+.content ul {
+  margin-bottom: 50px;
+}
+
+/*
+	Intro div
+*/
+.intro {
+	padding: 10px 100px;
+  border: 5px solid #333;
+	text-align: center;
+  margin-bottom: 30px;
+}
+
+/*
+	Social Media
+*/
+.social-media {
+  text-align: center;
+
+}
+
+.social-media .icons {
+	height: 30px;
+	width: 30px;
+}
+
+.social-media a {
+  margin-right: 5px;
+}
+
+.social-media a:last-child {
+  margin-right: 0;
+}

@@ -1,0 +1,65 @@
+<html>
+  <head>
+    <style>
+    #result 
+    </style>
+    <script type="text/javascript">
+      var baseAPI = "http://www.dnd5eapi.co/api/classes/";
+      var xhttp = new XMLHttpRequest();
+      function loadClasses() {
+        //var xhttp = new XMLHttpRequest();
+        xhttp.open("GET", baseAPI, false);
+        xhttp.setRequestHeader("Content-type", "application/json");
+        xhttp.send();
+        
+        var response = JSON.parse(xhttp.responseText);
+        document.getElementById("totalCount").innerHTML = response.count;
+        var resultList = response.results;
+        var classList = "";
+        classList += "<ul>";
+        for(var i in resultList)
+        {
+          classList += "<li><a href=\"#\" onclick=\"getInfo("+ Number(Number(i)+1) +")\">";
+          classList += resultList[i].name;
+          classList += "</a></li>";
+        }
+        classList += "</ul>";
+        document.getElementById("result").innerHTML = classList;
+      }
+      
+      function getInfo(id) {
+        
+        var selected = baseAPI + id;
+        xhttp.open("GET", selected, false);
+        xhttp.setRequestHeader("Content-type", "application/json");
+        xhttp.send();
+        var response = JSON.parse(xhttp.responseText);
+        
+        var info = "";
+        // Class name
+        info += "Class name: ";
+        info += response.name;
+        info += "<br/>";
+        
+        // Hit die
+        info += "Hit die: ";
+        info += response.hit_die;
+        info += "<br/>";
+        
+        // Proficiency
+        var fromList = response.proficiency_choices[0].from;
+        for (var i in fromList) {
+          info += fromList[i].name;
+          info += "<br/>";
+        }
+        
+        document.getElementById("info").innerHTML = info;
+      }
+    </script>
+  </head>
+  <body onload="loadClasses()">
+    Total Classes: <span id="totalCount"></span>
+    <div id="result"></div>
+    <div id="info"></div>
+  </body>
+</html>

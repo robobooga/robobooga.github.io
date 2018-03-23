@@ -1,0 +1,90 @@
+// Put styles that you might reuse in other projects here
+@import "setting";
+@import "edje-framework";
+
+// @import "fancybox";
+// @import "slick";
+// @import "wordpress";
+// @import "woo";
+// @import "blog";
+
+///// FONT /////
+
+@include font-faces($font-family-icon, (
+  ("material-icons.woff", 400),
+));
+
+// Usage: <i class="icon">icon_name</icon>
+//   http://google.github.io/material-design-icons/
+.icon {
+  display: inline-block;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.25em;
+
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+
+  -moz-osx-font-smoothing: grayscale;
+  @include icon;
+}
+
+///// BUTTON /////
+
+button,
+a.button, // more specific to override `.post-content a`
+[type="submit"] {
+  display: inline-block;
+  outline: none;
+  padding: 8px 15px;
+  border: 1px solid $color-main;
+  background-color: $color-main;
+  color: white;
+  text-decoration: none;
+
+  border-radius: $g-radius;
+  transition: none;
+
+  &:hover {
+    background-color: $color-main-dark;
+  }
+
+  &:active {
+    box-shadow: inset 0 0 0 1px white;
+  }
+}
+
+///// INPUT /////
+
+[type="text"],
+[type="number"],
+[type="tel"],
+[type="password"],
+[type="email"],
+[type="search"],
+[type="url"],
+textarea,
+select {
+  display: block;
+  width: 100%;
+  padding: 0.5em 0.75em;
+  border: 1px solid $color-passive;
+  border-top-color: darken($color-passive, 5%);
+  border-radius: $g-radius;
+
+  &:hover {
+    border-color: darken($color-passive, 10%);
+    box-shadow: inset 0 0 3px $color-passive;
+  }
+
+  &:focus {
+    border-color: $color-main;
+    box-shadow: inset 0 1px 2px rgba(black, .2);
+  }
+}

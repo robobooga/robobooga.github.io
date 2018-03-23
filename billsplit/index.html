@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:300,800" rel="stylesheet">
+  	<script src="scripts/screep.js"></script>
+  	<link href="styles/stowl.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="grid-center grid-middle">
+      <div class="col">
+        <div class="form">
+          <label for="iteminput">Enter item name:</label>
+          <input id="iteminput" type="text"/>
+
+          <label for="suminput">Enter sum:</label>
+          <div class="dollar">
+            <input id="suminput" type="number"/>
+          </div> <!-- end dollar -->
+
+          <label for="namesinput">Enter names (comma seperated):</label>
+          <input id="namesinput" type="text"/>
+
+          <button id="commit" onClick="saveNames()">
+            Submit
+          </button>
+          <button id="reset" onClick="reset()">
+            Reset
+          </button>
+        </div> <!-- end form -->
+
+        <div>
+          <h2>Results</h2>
+          <div id="nameslist">
+            No results
+          </div> <!-- end nameslist -->
+        </div>
+        
+        <!-- <div><span class="pill">hello</span></div> -->
+
+      </div> <!-- end column -->
+    </div> <!-- end grid -->
+  </body>
+</html>

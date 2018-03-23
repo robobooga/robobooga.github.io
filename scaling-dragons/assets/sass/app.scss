@@ -1,0 +1,191 @@
+// Put styles that are unique for this project here
+@import "setting";
+@import "edje";
+
+/* GENERAL */
+
+h1 {
+  letter-spacing: 3px;
+  text-transform: uppercase;
+
+  margin-bottom: 50px;
+}
+
+h2 {
+  font-size: 1.3em;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  
+  @include below(mini) {
+    line-height: 50px;
+  }
+
+  @include below(320px) {
+    font-size: 1.5em;
+  }
+}
+
+a {
+  color: #fff;
+}
+
+a:hover {
+  color: darken(#fff, 5%);
+  transition: $g-transition;
+}
+
+[class*="tile"] > li {
+  margin-bottom: 10px;
+}
+
+.overlay {
+  background: 50% 0 no-repeat;
+  background-size: cover;
+  -webkit-filter: blur(7px);
+  filter: blur(7px);
+
+  opacity: 0.5;
+
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: -1;
+
+  overflow: hidden;
+}
+
+.content {
+  padding: 150px 0;
+
+  text-align: center;
+}
+
+.flip-container {
+  perspective: 1000px;
+
+  text-align: center;
+
+  .flipper {
+    transition: 0.6s;
+    transform-style: preserve-3d;
+
+    position: relative;
+  }
+
+  .front, .back {
+    backface-visibility: hidden;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .front {
+    z-index: 2;
+    /* for firefox 31 */
+    transform: rotateY(0deg);
+  }
+
+  .back {
+    transform: rotateY(180deg);
+  }
+}
+
+.flip-container, .front, .back {
+  width: 100%;
+  height: 480px;
+
+  @include below(mini) {
+    height: 590px;
+  }
+
+  @include below(360px) {
+    height: 570px;
+  }
+
+  @include below(320px) {
+    height: 490px;
+  }
+}
+
+.flip {
+  transform: rotateY(180deg);
+}
+
+.card {
+  background: url('../images/tarot.svg') 50% 0 no-repeat;
+
+  text-align: center;
+
+  padding: 80px 50px;
+  margin-bottom: 10px;
+
+  @include below(mini) {
+    padding: 90px 80px;
+  }
+
+  @include below(380px) {
+    padding: 90px 70px;
+  }
+
+  @include below(320px) {
+    padding: 80px 50px;
+  }
+
+  img {
+    width: 140px;
+    max-height: 260px;
+    margin-bottom: 20px;
+
+    @include below(mini) {
+      width: 200px;
+      margin-bottom: 10px;
+    }
+
+    @include below(360px) {
+      width: 180px;
+    }
+
+    @include below(320px) {
+      width: 160px;
+    }
+  }
+}
+
+/* MOBILE STUFF*/
+/* NAV */
+.mobile-menu {
+  background-color: #222;
+  height: 50px;
+  width: 100%;
+
+  position: fixed;
+  top: 0;
+  z-index: z(menu);
+
+  text-align: center;
+  line-height: 50px;
+}
+
+.menu-toggle {
+  background-color: #222;
+  border-top: 1px solid #444;
+  width: 100%;
+
+  position: fixed;
+  top: 50px;
+  z-index: z(menu);
+
+  display: none;
+
+  padding: 20px;
+
+  text-align: center;
+}
+
+/* CONTENT */
+.mobile-content {
+  padding: 10px 0;
+  margin-top: 50px;
+}
