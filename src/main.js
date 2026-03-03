@@ -1,154 +1,158 @@
 import './style.css'
 
 document.querySelector('#app').innerHTML = `
-  <header>
-    <div class="container">
+  <div class="container">
+    <header>
       <nav>
-        <div class="logo">NT</div>
-        <button class="mobile-menu-btn" id="menuBtn">☰</button>
-        <ul class="nav-links" id="navLinks">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#skills">Skills</a></li>
+        <div class="logo">nt.</div>
+        <ul class="nav-links">
+          <li><a href="#expertise">Expertise</a></li>
+          <li><a href="#talk">Talk</a></li>
+          <li><a href="#ventures">Ventures</a></li>
+          <li><a href="#work">Work</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
-    </div>
-  </header>
+    </header>
 
-  <section id="home" class="hero">
-    <div class="container">
-      <h1>Nick Tan</h1>
-      <p class="subtitle">Developer • Designer • Creator</p>
-      <p>Building digital experiences and bringing ideas to life through code.</p>
-      <div class="cta-buttons">
-        <a href="#projects" class="btn btn-primary">View My Work</a>
-        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
-      </div>
-    </div>
-  </section>
-
-  <section id="about">
-    <div class="container">
-      <h2 class="section-title">About Me</h2>
-      <div class="about-content">
-        <p>
-          Hello! I'm Nick Tan, a passionate developer with a love for creating
-          elegant solutions to complex problems. I specialize in building web
-          applications and digital experiences that make a difference.
+    <main>
+      <section class="hero">
+        <div class="status-badge">
+          <span class="status-dot"></span>
+          Available for new projects & ventures
+        </div>
+        <h1>Building businesses and digital solutions.</h1>
+        <p class="subtitle">
+          Nick Tan — Entrepreneur and developer. 
+          Leading <a href="https://thatpetsupplystore.com" target="_blank" style="color: var(--accent-color); text-decoration: underline;">That Pet Supply Store</a>, 
+          <a href="https://soi.com.sg" target="_blank" style="color: var(--accent-color); text-decoration: underline;">Spot-On Inspectorate</a>, and 
+          <a href="https://shopee.sg/robobooga" target="_blank" style="color: var(--accent-color); text-decoration: underline;">The Shuffle Spot</a>.
         </p>
-        <p style="margin-top: 24px;">
-          When I'm not coding, you can find me exploring new technologies,
-          contributing to open-source projects, and continuously learning to
-          stay at the forefront of the ever-evolving tech landscape.
-        </p>
-      </div>
-    </div>
-  </section>
+        <div class="contact-links">
+          <a href="#contact" class="btn btn-primary">Get in touch</a>
+          <a href="https://linkedin.com/in/nicktanxs" target="_blank" class="btn social-btn">LinkedIn</a>
+        </div>
+      </section>
 
-  <section id="projects">
-    <div class="container">
-      <h2 class="section-title">Featured Projects</h2>
-      <div class="projects-grid">
-        <div class="project-card">
-          <h3>Project One</h3>
-          <p>A comprehensive web application that helps users manage their daily tasks with an intuitive interface and powerful features.</p>
-          <div class="project-tags">
-            <span class="tag">React</span>
-            <span class="tag">Node.js</span>
-            <span class="tag">MongoDB</span>
+      <section id="expertise">
+        <h2 class="section-title">Expertise</h2>
+        <div class="stack-grid">
+          <div class="stack-category">
+            <h4>Operations</h4>
+            <p style="font-size: 0.9rem; color: var(--text-secondary);">
+              End-to-end supplier and customer management, streamlining logistics, and scaling retail operations across multiple platforms.
+            </p>
+          </div>
+          <div class="stack-category">
+            <h4>Strategy</h4>
+            <p style="font-size: 0.9rem; color: var(--text-secondary);">
+              Leading multi-disciplinary teams and managing complex consultancy projects with a focus on operational excellence.
+            </p>
+          </div>
+          <div class="stack-category">
+            <h4>Systems</h4>
+            <p style="font-size: 0.9rem; color: var(--text-secondary);">
+              High-performance development in C++ and architecting robust systems within large-scale corporate environments.
+            </p>
+          </div>
+          <div class="stack-category">
+            <h4>Product</h4>
+            <p style="font-size: 0.9rem; color: var(--text-secondary);">
+              Translating real-world operational pain points into digital tools to solve network and project bottlenecks.
+            </p>
           </div>
         </div>
-        <div class="project-card">
-          <h3>Project Two</h3>
-          <p>An innovative mobile-first platform designed to connect people and foster meaningful interactions in local communities.</p>
-          <div class="project-tags">
-            <span class="tag">Vue.js</span>
-            <span class="tag">Firebase</span>
-            <span class="tag">PWA</span>
-          </div>
-        </div>
-        <div class="project-card">
-          <h3>Project Three</h3>
-          <p>A data visualization dashboard that transforms complex datasets into actionable insights with beautiful, interactive charts.</p>
-          <div class="project-tags">
-            <span class="tag">D3.js</span>
-            <span class="tag">Python</span>
-            <span class="tag">PostgreSQL</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+      </section>
 
-  <section id="skills">
-    <div class="container">
-      <h2 class="section-title">Skills & Technologies</h2>
-      <div class="skills-grid">
-        <div class="skill-category">
-          <h3>Frontend</h3>
-          <ul class="skill-list">
-            <li>HTML, CSS, JavaScript</li>
-            <li>React & Vue.js</li>
-            <li>Responsive Design</li>
-            <li>UI/UX Principles</li>
-          </ul>
-        </div>
-        <div class="skill-category">
-          <h3>Backend</h3>
-          <ul class="skill-list">
-            <li>Node.js & Express</li>
-            <li>Python & Django</li>
-            <li>RESTful APIs</li>
-            <li>Database Design</li>
-          </ul>
-        </div>
-        <div class="skill-category">
-          <h3>Tools & Other</h3>
-          <ul class="skill-list">
-            <li>Git & GitHub</li>
-            <li>Docker</li>
-            <li>CI/CD</li>
-            <li>Agile Methodologies</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
+      <section id="talk">
+        <h2 class="section-title">Talk to me about</h2>
+        <div class="stack-list" style="margin-top: -8px;">
+          <!-- Tech & Systems -->
+          <span class="stack-item">Artificial Intelligence</span>
+          <span class="stack-item">High-performance C++</span>
+          <span class="stack-item">Network optimization</span>
+          <span class="stack-item">Productivity systems</span>
 
-  <section id="contact">
-    <div class="container">
-      <h2 class="section-title">Get In Touch</h2>
-      <div class="contact-content">
-        <p>
-          I'm always open to discussing new projects, creative ideas, or
-          opportunities to be part of your vision. Feel free to reach out!
+          <!-- Business & Growth -->
+          <span class="stack-item">Entrepreneurship</span>
+          <span class="stack-item">E-commerce scaling</span>
+          <span class="stack-item">Retail logistics</span>
+
+          <!-- Hobbies & Interests -->
+          <span class="stack-item">Sleight of Hand & Magic</span>
+          <span class="stack-item">Playing Cards</span>
+          <span class="stack-item">Mahjong</span>
+          <span class="stack-item">Cue Sports</span>
+          <span class="stack-item">Watches</span>
+        </div>
+      </section>
+
+      <section id="ventures">
+        <h2 class="section-title">Ventures</h2>
+        <div class="projects-list">
+          <a href="https://thatpetsupplystore.com" target="_blank" class="project-card">
+            <div class="project-info">
+              <h3>That Pet Supply Store</h3>
+              <p>Curated essentials for your furry companions.</p>
+            </div>
+            <div class="project-link-icon">↗</div>
+          </a>
+          <a href="https://soi.com.sg" target="_blank" class="project-card">
+            <div class="project-info">
+              <h3>Spot-On Inspectorate</h3>
+              <p>Professional building inspection and consultancy services.</p>
+            </div>
+            <div class="project-link-icon">↗</div>
+          </a>
+          <a href="https://shopee.sg/robobooga" target="_blank" class="project-card">
+            <div class="project-info">
+              <h3>The Shuffle Spot</h3>
+              <p>Premium playing cards and hobby supplies.</p>
+            </div>
+            <div class="project-link-icon">↗</div>
+          </a>
+        </div>
+      </section>
+
+      <section id="work">
+        <h2 class="section-title">Selected Projects</h2>
+        <div class="projects-list">
+          <a href="https://tryscarab.netlify.app" target="_blank" class="project-card">
+            <div class="project-info">
+              <h3>Scarab</h3>
+              <p>A streamlined project management application for modern teams.</p>
+            </div>
+            <div class="project-link-icon">↗</div>
+          </a>
+          <a href="https://nolag-tool.netlify.app" target="_blank" class="project-card">
+            <div class="project-info">
+              <h3>NoLag Tool</h3>
+              <p>HDB network management and optimization tool.</p>
+            </div>
+            <div class="project-link-icon">↗</div>
+          </a>
+        </div>
+      </section>
+
+      <section id="contact">
+        <h2 class="section-title">Connect</h2>
+        <p style="margin-bottom: 24px; color: var(--text-secondary);">
+          Have a project in mind or just want to chat? Feel free to reach out.
         </p>
-        <a href="mailto:hello@nicktan.com" class="btn btn-primary">Send Email</a>
-        <div class="social-links">
-          <a href="https://github.com/nicktan" target="_blank">GitHub</a>
-          <a href="https://linkedin.com/in/nicktan" target="_blank">LinkedIn</a>
-          <a href="https://twitter.com/nicktan" target="_blank">Twitter</a>
+        <div class="contact-links">
+          <a href="mailto:nick.tan.xs@gmail.com" class="btn btn-primary">Email Me</a>
+          <a href="https://linkedin.com/in/nicktanxs" class="btn social-btn">LinkedIn</a>
         </div>
-      </div>
-    </div>
-  </section>
+      </section>
+    </main>
 
-  <footer>
-    <div class="container">
+    <footer>
       <p>&copy; 2026 Nick Tan. All rights reserved.</p>
-    </div>
-  </footer>
+    </footer>
+  </div>
 `
 
-function toggleMenu() {
-  const navLinks = document.getElementById('navLinks')
-  navLinks.classList.toggle('active')
-}
-
-document.getElementById('menuBtn').addEventListener('click', toggleMenu)
-
+// Smooth scrolling for anchor links
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   anchor.addEventListener('click', function (e) {
     e.preventDefault()
@@ -158,8 +162,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         behavior: 'smooth',
         block: 'start'
       })
-      const navLinks = document.getElementById('navLinks')
-      navLinks.classList.remove('active')
     }
   })
 })
