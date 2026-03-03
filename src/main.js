@@ -9,7 +9,7 @@ document.querySelector('#app').innerHTML = `
           <li><a href="#expertise">Expertise</a></li>
           <li><a href="#talk">Talk</a></li>
           <li><a href="#ventures">Ventures</a></li>
-          <li><a href="#work">Work</a></li>
+          <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
@@ -19,46 +19,46 @@ document.querySelector('#app').innerHTML = `
       <section class="hero">
         <div class="status-badge">
           <span class="status-dot"></span>
-          Available for new projects & ventures
+          Available for new projects
         </div>
-        <h1>Building businesses and digital solutions.</h1>
+        <h1>Hey, I'm Nick. I build businesses and solve problems with code.</h1>
         <p class="subtitle">
-          Nick Tan — Entrepreneur and developer. 
-          Leading <a href="https://thatpetsupplystore.com" target="_blank" style="color: var(--accent-color); text-decoration: underline;">That Pet Supply Store</a>, 
+          Entrepreneur and developer. Leading
+          <a href="https://thatpetsupplystore.com" target="_blank" style="color: var(--accent-color); text-decoration: underline;">That Pet Supply Store</a>,
           <a href="https://soi.com.sg" target="_blank" style="color: var(--accent-color); text-decoration: underline;">Spot-On Inspectorate</a>, and 
           <a href="https://shopee.sg/robobooga" target="_blank" style="color: var(--accent-color); text-decoration: underline;">The Shuffle Spot</a>.
         </p>
         <div class="contact-links">
           <a href="#contact" class="btn btn-primary">Get in touch</a>
-          <a href="https://linkedin.com/in/nicktanxs" target="_blank" class="btn social-btn">LinkedIn</a>
+          <a href="https://linkedin.com/in/nicktanxs" class="btn social-btn">LinkedIn</a>
         </div>
       </section>
 
       <section id="expertise">
-        <h2 class="section-title">Expertise</h2>
+        <h2 class="section-title">What I do</h2>
         <div class="stack-grid">
           <div class="stack-category">
-            <h4>Operations</h4>
+            <h4>📦 Operations</h4>
             <p style="font-size: 0.9rem; color: var(--text-secondary);">
-              End-to-end supplier and customer management, streamlining logistics, and scaling retail operations across multiple platforms.
+              Managing suppliers, logistics, and retail scaling across multiple platforms with a focus on efficiency.
             </p>
           </div>
           <div class="stack-category">
-            <h4>Strategy</h4>
+            <h4>📈 Strategy</h4>
             <p style="font-size: 0.9rem; color: var(--text-secondary);">
-              Leading multi-disciplinary teams and managing complex consultancy projects with a focus on operational excellence.
+              Leading teams and managing complex projects through operational excellence and strategic planning.
             </p>
           </div>
           <div class="stack-category">
-            <h4>Systems</h4>
+            <h4>⚙️ Systems</h4>
             <p style="font-size: 0.9rem; color: var(--text-secondary);">
-              High-performance development in C++ and architecting robust systems within large-scale corporate environments.
+              Building high-performance systems in C++ and architecting robust software for large-scale environments.
             </p>
           </div>
           <div class="stack-category">
-            <h4>Product</h4>
+            <h4>🚀 Product</h4>
             <p style="font-size: 0.9rem; color: var(--text-secondary);">
-              Translating real-world operational pain points into digital tools to solve network and project bottlenecks.
+              Translating real-world operational pain points into digital tools that solve actual bottlenecks.
             </p>
           </div>
         </div>
@@ -68,22 +68,21 @@ document.querySelector('#app').innerHTML = `
         <h2 class="section-title">Talk to me about</h2>
         <div class="stack-list" style="margin-top: -8px;">
           <!-- Tech & Systems -->
-          <span class="stack-item">Artificial Intelligence</span>
-          <span class="stack-item">High-performance C++</span>
-          <span class="stack-item">Network optimization</span>
-          <span class="stack-item">Productivity systems</span>
+          <span class="stack-item">🤖 Artificial Intelligence</span>
+          <span class="stack-item">💻 High-performance C++</span>
+          <span class="stack-item">🌐 Network optimization</span>
+          <span class="stack-item">🛠 Productivity systems</span>
 
           <!-- Business & Growth -->
-          <span class="stack-item">Entrepreneurship</span>
-          <span class="stack-item">E-commerce scaling</span>
-          <span class="stack-item">Retail logistics</span>
+          <span class="stack-item">🏢 Entrepreneurship</span>
+          <span class="stack-item">📈 E-commerce scaling</span>
+          <span class="stack-item">🚚 Retail logistics</span>
 
           <!-- Hobbies & Interests -->
-          <span class="stack-item">Sleight of Hand & Magic</span>
-          <span class="stack-item">Playing Cards</span>
-          <span class="stack-item">Mahjong</span>
-          <span class="stack-item">Cue Sports</span>
-          <span class="stack-item">Watches</span>
+          <span class="stack-item">🪄 Sleight of Hand</span>
+          <span class="stack-item">🃏 Magic & Playing Cards</span>
+          <span class="stack-item">🎱 Cue Sports</span>
+          <span class="stack-item">⌚ Watches</span>
         </div>
       </section>
 
@@ -107,7 +106,7 @@ document.querySelector('#app').innerHTML = `
           <a href="https://shopee.sg/robobooga" target="_blank" class="project-card">
             <div class="project-info">
               <h3>The Shuffle Spot</h3>
-              <p>Premium playing cards and hobby supplies.</p>
+              <p>Premium playing cards and magic supplies on Shopee.</p>
             </div>
             <div class="project-link-icon">↗</div>
           </a>
