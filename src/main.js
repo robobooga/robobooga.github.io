@@ -46,7 +46,7 @@ document.querySelector('#app').innerHTML = `
           <div class="stack-category">
             <h4>📈 Strategy</h4>
             <p style="font-size: 0.9rem; color: var(--text-secondary);">
-              Leading teams and managing complex projects through operational excellence and strategic planning.
+              Managing complex projects through operational excellence and strategic planning.
             </p>
           </div>
           <div class="stack-category">
@@ -69,19 +69,22 @@ document.querySelector('#app').innerHTML = `
         <div class="stack-list" style="margin-top: -8px;">
           <!-- Tech & Systems -->
           <span class="stack-item">🤖 Artificial Intelligence</span>
+          <span class="stack-item">🛡️ Cybersecurity</span>
           <span class="stack-item">💻 High-performance C++</span>
           <span class="stack-item">🌐 Network optimization</span>
           <span class="stack-item">🛠 Productivity systems</span>
 
           <!-- Business & Growth -->
-          <span class="stack-item">🏢 Entrepreneurship</span>
           <span class="stack-item">📈 E-commerce scaling</span>
+          <span class="stack-item">🏢 Entrepreneurship</span>
           <span class="stack-item">🚚 Retail logistics</span>
 
           <!-- Hobbies & Interests -->
-          <span class="stack-item">🪄 Sleight of Hand</span>
-          <span class="stack-item">🃏 Magic & Playing Cards</span>
           <span class="stack-item">🎱 Cue Sports</span>
+          <span class="stack-item">🎮 Gaming</span>
+          <span class="stack-item">💰 Personal Finance</span>
+          <span class="stack-item">🃏 Magic & Playing Cards</span>
+          <span class="stack-item">🪄 Sleight of Hand</span>
           <span class="stack-item">⌚ Watches</span>
         </div>
       </section>
@@ -106,7 +109,7 @@ document.querySelector('#app').innerHTML = `
           <a href="https://shopee.sg/robobooga" target="_blank" class="project-card">
             <div class="project-info">
               <h3>The Shuffle Spot</h3>
-              <p>Premium playing cards and magic supplies on Shopee.</p>
+              <p>Premium playing cards and magic supplies.</p>
             </div>
             <div class="project-link-icon">↗</div>
           </a>
