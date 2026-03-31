@@ -70,9 +70,7 @@ document.querySelector('#app').innerHTML = `
           <!-- Tech & Systems -->
           <span class="stack-item">🤖 Artificial Intelligence</span>
           <span class="stack-item">🛡️ Cybersecurity</span>
-          <span class="stack-item">💻 High-performance C++</span>
           <span class="stack-item">🌐 Network optimization</span>
-          <span class="stack-item">🛠 Productivity systems</span>
 
           <!-- Business & Growth -->
           <span class="stack-item">📈 E-commerce scaling</span>
@@ -83,9 +81,7 @@ document.querySelector('#app').innerHTML = `
           <span class="stack-item">🎱 Cue Sports</span>
           <span class="stack-item">🎮 Gaming</span>
           <span class="stack-item">💰 Personal Finance</span>
-          <span class="stack-item">🃏 Magic & Playing Cards</span>
-          <span class="stack-item">🪄 Sleight of Hand</span>
-          <span class="stack-item">⌚ Watches</span>
+          <span class="stack-item">🃏 Sleight of Hand & Playing Cards</span>
         </div>
       </section>
 
@@ -117,19 +113,19 @@ document.querySelector('#app').innerHTML = `
       </section>
 
       <section id="work">
-        <h2 class="section-title">Selected Projects</h2>
+        <h2 class="section-title">Current Projects</h2>
         <div class="projects-list">
           <a href="https://tryscarab.netlify.app" target="_blank" class="project-card">
             <div class="project-info">
               <h3>Scarab</h3>
-              <p>A streamlined project management application for modern teams.</p>
+              <p>Semantic AI project tool featuring privacy-by-design, built with TypeScript, Node.js, and LangChain orchestration.</p>
             </div>
             <div class="project-link-icon">↗</div>
           </a>
           <a href="https://nolag-tool.netlify.app" target="_blank" class="project-card">
             <div class="project-info">
               <h3>NoLag Tool</h3>
-              <p>HDB network management and optimization tool.</p>
+              <p>Network optimization tool featuring real-time signal heatmaps and equipment simulation, built with React, TypeScript, and Tailwind CSS.</p>
             </div>
             <div class="project-link-icon">↗</div>
           </a>
