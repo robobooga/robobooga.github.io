@@ -118,14 +118,16 @@ document.querySelector('#app').innerHTML = `
           <a href="https://tryscarab.netlify.app" target="_blank" class="project-card">
             <div class="project-info">
               <h3>Scarab</h3>
-              <p>Semantic AI project tool featuring privacy-by-design, built with TypeScript, Node.js, and LangChain orchestration.</p>
+              <p>Semantic AI project tool featuring privacy-by-design.</p>
+              <p>Built with TypeScript, Node.js, and LangChain orchestration.</p>
             </div>
             <div class="project-link-icon">↗</div>
           </a>
           <a href="https://nolag-tool.netlify.app" target="_blank" class="project-card">
             <div class="project-info">
               <h3>NoLag Tool</h3>
-              <p>Network optimization tool featuring real-time signal heatmaps and equipment simulation, built with React, TypeScript, and Tailwind CSS.</p>
+              <p>Network optimization tool featuring real-time signal heatmaps and equipment simulation</p>
+              <p>Built with React, TypeScript, and Tailwind CSS.</p>
             </div>
             <div class="project-link-icon">↗</div>
           </a>
