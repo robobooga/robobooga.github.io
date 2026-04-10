@@ -5,6 +5,11 @@ document.querySelector('#app').innerHTML = `
     <header>
       <nav>
         <div class="logo">nt.</div>
+        <button class="mobile-menu-toggle" aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
         <ul class="nav-links">
           <li><a href="#expertise">Expertise</a></li>
           <li><a href="#talk">Talk</a></li>
@@ -112,7 +117,7 @@ document.querySelector('#app').innerHTML = `
         </div>
       </section>
 
-      <section id="work">
+      <section id="projects">
         <h2 class="section-title">Current Projects</h2>
         <div class="projects-list">
           <a href="https://tryscarab.netlify.app" target="_blank" class="project-card">
@@ -163,5 +168,21 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         block: 'start'
       })
     }
+    // Close mobile menu when a link is clicked
+    const navLinks = document.querySelector('.nav-links')
+    const menuToggle = document.querySelector('.mobile-menu-toggle')
+    if (navLinks.classList.contains('active')) {
+      navLinks.classList.remove('active')
+      menuToggle.classList.remove('active')
+    }
   })
+})
+
+// Mobile menu toggle
+const mobileMenuToggle = document.querySelector('.mobile-menu-toggle')
+const navLinks = document.querySelector('.nav-links')
+
+mobileMenuToggle.addEventListener('click', () => {
+  mobileMenuToggle.classList.toggle('active')
+  navLinks.classList.toggle('active')
 })
