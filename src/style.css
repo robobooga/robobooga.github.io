@@ -206,6 +206,13 @@ section {
   color: var(--text-secondary);
 }
 
+.project-info .project-tech {
+  margin-top: 12px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  opacity: 0.7;
+}
+
 .project-link-icon {
   color: var(--text-secondary);
   font-size: 1.2rem;

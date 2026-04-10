@@ -96,7 +96,7 @@ document.querySelector('#app').innerHTML = `
           <a href="https://thatpetsupplystore.com" target="_blank" class="project-card">
             <div class="project-info">
               <h3>That Pet Supply Store</h3>
-              <p>Curated essentials for your furry companions.</p>
+              <p>Essentials for your furry companions.</p>
             </div>
             <div class="project-link-icon">↗</div>
           </a>
@@ -124,7 +124,7 @@ document.querySelector('#app').innerHTML = `
             <div class="project-info">
               <h3>Krema (Currently building)</h3>
               <p>Organizational intelligence platform that transforms KPIs and 1-1 meeting notes into structured team alignment data and actionable insights.</p>
-              <p>Built with Next.js 16, TypeScript, Postgres/Supabase, Prisma ORM, and Tailwind CSS.</p>
+              <p class="project-tech">Built with Next.js 16, TypeScript, Postgres/Supabase, Prisma ORM, and Tailwind CSS.</p>
             </div>
             <div class="project-link-icon">↗</div>
           </a>
@@ -132,7 +132,7 @@ document.querySelector('#app').innerHTML = `
             <div class="project-info">
               <h3>Scarab (On-hold)</h3>
               <p>Conversational project ledger that transforms chaotic chat history into structured, verifiable decision logs and automated task tracking.</p>
-              <p>Built with TypeScript, Node.js, Grammy, Redis, Postgres, and LangChain orchestration.</p>
+              <p class="project-tech">Built with TypeScript, Node.js, Grammy, Redis, Postgres, and LangChain orchestration.</p>
             </div>
             <div class="project-link-icon">↗</div>
           </a>
