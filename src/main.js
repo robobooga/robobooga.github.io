@@ -110,7 +110,7 @@ document.querySelector('#app').innerHTML = `
           <a href="https://shopee.sg/robobooga" target="_blank" class="project-card">
             <div class="project-info">
               <h3>The Shuffle Spot</h3>
-              <p>Premium playing cards and magic supplies.</p>
+              <p>Premium playing cards and hobby supplies.</p>
             </div>
             <div class="project-link-icon">↗</div>
           </a>
@@ -120,19 +120,19 @@ document.querySelector('#app').innerHTML = `
       <section id="projects">
         <h2 class="section-title">Current Projects</h2>
         <div class="projects-list">
-          <a href="https://tryscarab.netlify.app" target="_blank" class="project-card">
+          <a href="https://trykrema.netlify.app" target="_blank" class="project-card">
             <div class="project-info">
-              <h3>Scarab</h3>
-              <p>Semantic AI project tool featuring privacy-by-design.</p>
-              <p>Built with TypeScript, Node.js, and LangChain orchestration.</p>
+              <h3>Krema (Currently building)</h3>
+              <p>Organizational intelligence platform that transforms KPIs and 1-1 meeting notes into structured team alignment data and actionable insights.</p>
+              <p>Built with Next.js 16, TypeScript, Postgres/Supabase, Prisma ORM, and Tailwind CSS.</p>
             </div>
             <div class="project-link-icon">↗</div>
           </a>
-          <a href="https://nolag-tool.netlify.app" target="_blank" class="project-card">
+          <a href="https://tryscarab.netlify.app" target="_blank" class="project-card">
             <div class="project-info">
-              <h3>NoLag Tool</h3>
-              <p>Network optimization tool featuring real-time signal heatmaps and equipment simulation</p>
-              <p>Built with React, TypeScript, and Tailwind CSS.</p>
+              <h3>Scarab (On-hold)</h3>
+              <p>Conversational project ledger that transforms chaotic chat history into structured, verifiable decision logs and automated task tracking.</p>
+              <p>Built with TypeScript, Node.js, Grammy, Redis, Postgres, and LangChain orchestration.</p>
             </div>
             <div class="project-link-icon">↗</div>
           </a>
