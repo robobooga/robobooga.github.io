@@ -120,6 +120,20 @@ document.querySelector('#app').innerHTML = `
       <section id="projects">
         <h2 class="section-title">Current Projects</h2>
         <div class="projects-list">
+          <a href="https://nick-tan.com/ourobor-os" target="_blank" class="project-card">
+            <div class="project-info">
+              <h3>Ourobor-OS</h3>
+              <p>Portable, compounding knowledge system designed to serve as an "External Brain" for LLM agents. Transforms project documentation into a structured, machine-readable wiki that grows alongside your codebase.</p>
+            </div>
+            <div class="project-link-icon">↗</div>
+          </a>
+          <a href="https://nick-tan.com/data-bouncer" target="_blank" class="project-card">
+            <div class="project-info">
+              <h3>Data Bouncer</h3>
+              <p>Extension that converts and sanitizes webpages and articles into markdown formats for modern LLMs to process.</p>
+            </div>
+            <div class="project-link-icon">↗</div>
+          </a>
           <a href="https://trykrema.netlify.app" target="_blank" class="project-card">
             <div class="project-info">
               <h3>Krema (Currently building)</h3>
