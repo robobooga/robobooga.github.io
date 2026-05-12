@@ -171,6 +171,85 @@ document.querySelector('#app').innerHTML = `
   </div>
 `
 
+// Terminal intro
+;(function initTerminalIntro() {
+  const LINES = [
+    { prompt: '$ ', text: 'whoami' },
+    { prompt: '',   text: 'Nick' },
+  ]
+  const TYPE_SPEED = 90
+  const LINE_PAUSE = 500
+  const EXIT_DELAY = 900
+
+  const overlay = document.createElement('div')
+  overlay.className = 'terminal-overlay'
+  overlay.innerHTML = `
+    <div class="terminal-window">
+      <div class="terminal-titlebar">
+        <span class="terminal-dot terminal-dot--red"></span>
+        <span class="terminal-dot terminal-dot--yellow"></span>
+        <span class="terminal-dot terminal-dot--green"></span>
+        <span class="terminal-title">bash</span>
+      </div>
+      <div class="terminal-body"></div>
+    </div>
+  `
+  document.body.prepend(overlay)
+
+  const termBody = overlay.querySelector('.terminal-body')
+  let cursorEl = null
+
+  const cursorInterval = setInterval(() => {
+    if (cursorEl) cursorEl.classList.toggle('terminal-cursor--hidden')
+  }, 530)
+
+  function startLine(lineIndex) {
+    const line = LINES[lineIndex]
+    const isOutput = line.prompt === ''
+    const div = document.createElement('div')
+    div.className = 'terminal-line' + (isOutput ? ' terminal-output' : '')
+    if (line.prompt) {
+      const promptEl = document.createElement('span')
+      promptEl.className = 'terminal-prompt'
+      promptEl.textContent = line.prompt
+      div.appendChild(promptEl)
+    }
+    const textEl = document.createElement('span')
+    if (isOutput) textEl.className = 'terminal-name'
+    div.appendChild(textEl)
+    cursorEl = document.createElement('span')
+    cursorEl.className = 'terminal-cursor'
+    cursorEl.textContent = '█'
+    div.appendChild(cursorEl)
+    termBody.appendChild(div)
+    typeChars(lineIndex, 0, textEl)
+  }
+
+  function typeChars(lineIndex, charIndex, textEl) {
+    const line = LINES[lineIndex]
+    if (charIndex < line.text.length) {
+      textEl.textContent = line.text.slice(0, charIndex + 1)
+      setTimeout(() => typeChars(lineIndex, charIndex + 1, textEl), TYPE_SPEED)
+      return
+    }
+    if (lineIndex < LINES.length - 1) {
+      cursorEl.remove()
+      cursorEl = null
+      setTimeout(() => startLine(lineIndex + 1), LINE_PAUSE)
+      return
+    }
+    setTimeout(() => {
+      overlay.classList.add('terminal-exit')
+      setTimeout(() => {
+        clearInterval(cursorInterval)
+        overlay.remove()
+      }, 600)
+    }, EXIT_DELAY)
+  }
+
+  startLine(0)
+}())
+
 // Smooth scrolling for anchor links
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   anchor.addEventListener('click', function (e) {
