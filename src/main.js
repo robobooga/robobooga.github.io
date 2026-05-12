@@ -173,6 +173,8 @@ document.querySelector('#app').innerHTML = `
 
 // Terminal intro
 ;(function initTerminalIntro() {
+  if (new URLSearchParams(window.location.search).get('skip-intro') === 'true') return
+
   const LINES = [
     { prompt: '$ ', text: 'whoami' },
     { prompt: '',   text: 'Nick' },
