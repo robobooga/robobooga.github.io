@@ -36,6 +36,7 @@ document.querySelector('#app').innerHTML = `
         <div class="contact-links">
           <a href="#contact" class="btn btn-primary">Get in touch</a>
           <a href="https://linkedin.com/in/nicktanxs" class="btn social-btn">LinkedIn</a>
+          <a href="https://github.com/robobooga" class="btn social-btn">GitHub</a>
         </div>
       </section>
 
@@ -161,6 +162,7 @@ document.querySelector('#app').innerHTML = `
         <div class="contact-links">
           <a href="mailto:nick.tan.xs@gmail.com" class="btn btn-primary">Email Me</a>
           <a href="https://linkedin.com/in/nicktanxs" class="btn social-btn">LinkedIn</a>
+          <a href="https://github.com/robobooga" class="btn social-btn">GitHub</a>
         </div>
       </section>
     </main>
