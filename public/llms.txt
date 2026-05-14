@@ -1,0 +1,38 @@
+# Nick Tan
+
+> Entrepreneur and developer. I build businesses and solve problems with code.
+
+Personal portfolio site for Nick Tan, available at nick-tan.com.
+
+## About
+
+Nick Tan is an entrepreneur and software developer based in Singapore. He is currently available for new projects.
+
+He leads three businesses:
+- **That Pet Supply Store** (thatpetsupplystore.com) — pet essentials e-commerce
+- **Spot-On Inspectorate** (soi.com.sg) — professional building inspection and consultancy
+- **The Shuffle Spot** (shopee.sg/robobooga) — premium playing cards and hobby supplies
+
+## Expertise
+
+- **Operations** — supplier management, logistics, and retail scaling across multiple platforms
+- **Strategy** — complex project management through operational excellence and strategic planning
+- **Systems** — high-performance systems in C++, robust software for large-scale environments
+- **Product** — translating operational pain points into digital tools
+
+## Current Projects
+
+- **Ourobor-OS** (nick-tan.com/ourobor-os) — Portable, compounding knowledge system designed as an "External Brain" for LLM agents. Transforms project documentation into a structured, machine-readable wiki.
+- **Data Bouncer** (nick-tan.com/data-bouncer) — Browser extension that converts and sanitizes webpages and articles into markdown for LLMs to process.
+- **Krema** (trykrema.netlify.app) — Organizational intelligence platform that transforms KPIs and 1-1 meeting notes into structured team alignment data and actionable insights. Built with Next.js, TypeScript, Postgres/Supabase, Prisma ORM, and Tailwind CSS.
+- **Scarab** (tryscarab.netlify.app, on hold) — Conversational project ledger that transforms chat history into structured decision logs and automated task tracking. Built with TypeScript, Node.js, Grammy, Redis, Postgres, and LangChain.
+
+## Interests
+
+Artificial Intelligence, Cybersecurity, Network optimization, E-commerce scaling, Entrepreneurship, Retail logistics, Cue Sports, Gaming, Personal Finance, Sleight of Hand & Playing Cards.
+
+## Contact
+
+- Email: nick.tan.xs@gmail.com
+- LinkedIn: linkedin.com/in/nicktanxs
+- GitHub: github.com/robobooga

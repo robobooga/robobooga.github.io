@@ -1,0 +1,86 @@
+# Nick Tan — Full Profile
+
+> Entrepreneur and developer based in Singapore. I build businesses and solve problems with code.
+
+Personal portfolio: nick-tan.com
+Contact: nick.tan.xs@gmail.com
+LinkedIn: linkedin.com/in/nicktanxs
+GitHub: github.com/robobooga
+
+## About
+
+Nick Tan is an entrepreneur and software developer who operates at the intersection of business operations and software engineering. He runs multiple ventures simultaneously while actively building developer tools and AI-adjacent products. He is currently available for new projects and collaborations.
+
+## Expertise
+
+### Operations
+Managing suppliers, logistics, and retail scaling across multiple e-commerce platforms with a focus on efficiency. Experience covers inventory management, supplier negotiations, fulfilment pipelines, and cross-platform listings.
+
+### Strategy
+Managing complex projects through operational excellence and strategic planning. Comfortable with ambiguity, long planning horizons, and translating high-level goals into executable roadmaps.
+
+### Systems
+Building high-performance systems in C++ and architecting robust software for large-scale environments. Strong interest in low-level performance, network optimization, and system design.
+
+### Product
+Translating real-world operational pain points into digital tools that solve actual bottlenecks. Approach is empirical — build from personal experience running businesses, not from hypothetical user research.
+
+## Ventures
+
+### That Pet Supply Store
+URL: thatpetsupplystore.com
+Pet essentials e-commerce business. Focus on essentials for pet owners. Operated across multiple retail platforms.
+
+### Spot-On Inspectorate
+URL: soi.com.sg
+Professional building inspection and consultancy services in Singapore. Serves homeowners, buyers, and property developers requiring independent structural and condition assessments.
+
+### The Shuffle Spot
+URL: shopee.sg/robobooga
+Premium playing cards and hobby supplies. Caters to cardists, magicians, and collectors. Operates on the Shopee platform in Singapore.
+
+## Current Projects
+
+### Ourobor-OS
+URL: nick-tan.com/ourobor-os
+Status: Active
+
+A portable, compounding knowledge system designed to serve as an "External Brain" for LLM agents. Transforms project documentation into a structured, machine-readable wiki that grows alongside a codebase. Addresses the problem of LLMs losing context across long projects by maintaining a living knowledge graph that agents can read and write to.
+
+### Data Bouncer
+URL: nick-tan.com/data-bouncer
+Status: Active
+
+A browser extension that converts and sanitizes webpages and articles into clean markdown formats optimized for LLM ingestion. Strips noise (ads, nav, boilerplate) and produces structured markdown that modern language models can process accurately.
+
+### Krema
+URL: trykrema.netlify.app
+Status: Currently building
+
+An organizational intelligence platform that transforms KPIs and 1-1 meeting notes into structured team alignment data and actionable insights. Designed for managers and team leads who need to turn unstructured conversation data into measurable progress signals.
+
+Tech stack: Next.js 16, TypeScript, Postgres, Supabase, Prisma ORM, Tailwind CSS.
+
+### Scarab
+URL: tryscarab.netlify.app
+Status: On hold
+
+A conversational project ledger that transforms chaotic chat history into structured, verifiable decision logs and automated task tracking. Ingests Telegram or chat threads and produces a clean audit trail of decisions, owners, and due dates.
+
+Tech stack: TypeScript, Node.js, Grammy (Telegram bot framework), Redis, Postgres, LangChain.
+
+## Interests & Conversation Topics
+
+**Technology:** Artificial Intelligence, Cybersecurity, Network optimization
+
+**Business:** E-commerce scaling, Entrepreneurship, Retail logistics
+
+**Hobbies:** Cue Sports (pool/snooker/billiards), Gaming, Personal Finance, Sleight of Hand & Playing Cards
+
+## Contact
+
+Reach out for: project collaborations, consulting on e-commerce operations, discussing AI tooling, or just to chat.
+
+- Email: nick.tan.xs@gmail.com
+- LinkedIn: linkedin.com/in/nicktanxs
+- GitHub: github.com/robobooga
