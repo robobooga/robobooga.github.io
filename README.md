@@ -8,7 +8,8 @@ View the live site at [robobooga.github.io](https://robobooga.github.io)
 ## 🛠 Features
 - **Modern Minimalist Design:** Soft dark theme with bold typography.
 - **Ventures:** Highlights leadership in That Pet Supply Store, Spot-On Inspectorate, and The Shuffle Spot.
-- **Projects:** Showcases active development on Scarab and NoLag Tool.
+- **Projects:** Showcases active development on Ourobor-OS.
+- **Extensions:** Chrome extensions (OOTD Transcript Downloader, Data Bouncer).
 - **Expertise:** Summarizes core skills in Operations, Strategy, Systems (C++), and Product.
 - **Responsive:** Fully optimized for mobile and desktop.
 

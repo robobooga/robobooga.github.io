@@ -1,6 +1,6 @@
 # Nick Tan — Full Profile
 
-> Entrepreneur and developer based in Singapore. I build businesses and solve problems with code.
+> Software engineer and entrepreneur based in Singapore. I build businesses and solve problems with code.
 
 Personal portfolio: nick-tan.com
 Contact: nick.tan.xs@gmail.com
@@ -9,31 +9,31 @@ GitHub: github.com/robobooga
 
 ## About
 
-Nick Tan is an entrepreneur and software developer who operates at the intersection of business operations and software engineering. He runs multiple ventures simultaneously while actively building developer tools and AI-adjacent products. He is currently available for new projects and collaborations.
+Nick Tan is a software engineer and entrepreneur. He spent over eight years, most recently as a Senior Software Engineer, building enterprise data discovery software in C++, and now works with AI. Alongside that he runs three businesses and builds the software they need. He is open to roles, consulting and collaborations.
 
 ## Expertise
 
-### Operations
-Managing suppliers, logistics, and retail scaling across multiple e-commerce platforms with a focus on efficiency. Experience covers inventory management, supplier negotiations, fulfilment pipelines, and cross-platform listings.
-
-### Strategy
-Managing complex projects through operational excellence and strategic planning. Comfortable with ambiguity, long planning horizons, and translating high-level goals into executable roadmaps.
-
 ### Systems
-Building high-performance systems in C++ and architecting robust software for large-scale environments. Strong interest in low-level performance, network optimization, and system design.
+Over eight years on a large enterprise C++ codebase: file scanning that runs on Windows, Linux and macOS (PDF and Office formats), and connectors for databases (MariaDB/MySQL, PostgreSQL), cloud storage (Dropbox, S3, Google Workspace) and servers.
+
+### AI
+Building with LLMs: question answering over documents with citations (RAG), agents, MCP servers, and red teaming prompts against injection and tool abuse. Also MLOps pipelines and training vision, time series and NLP models.
+
+### Operations
+Running an online store end to end: suppliers, listings, ads and fulfilment, on a self-built back office for orders, shipping labels and stock sync.
 
 ### Product
-Translating real-world operational pain points into digital tools that solve actual bottlenecks. Approach is empirical — build from personal experience running businesses, not from hypothetical user research.
+Turning requirements into specifications and proof-of-concepts with Product and UI/UX teams, and acting as the tier-3 engineering contact for complex customer issues.
 
 ## Ventures
 
 ### That Pet Supply Store
 URL: thatpetsupplystore.com
-Pet essentials e-commerce business. Focus on essentials for pet owners. Operated across multiple retail platforms.
+Online pet supply store in Singapore, founded in 2026. Runs on a back office Nick built: orders, shipping labels, packing slips, supplier stock sync and a Telegram bot for day-to-day operations.
 
 ### Spot-On Inspectorate
 URL: soi.com.sg
-Professional building inspection and consultancy services in Singapore. Serves homeowners, buyers, and property developers requiring independent structural and condition assessments.
+Building inspection and consultancy in Singapore, founded in 2024. Nick is prototyping AI that turns site notes and photos into defect reports.
 
 ### The Shuffle Spot
 URL: shopee.sg/robobooga
@@ -45,29 +45,21 @@ Premium playing cards and hobby supplies. Caters to cardists, magicians, and col
 URL: nick-tan.com/ourobor-os
 Status: Active
 
-A portable, compounding knowledge system designed to serve as an "External Brain" for LLM agents. Transforms project documentation into a structured, machine-readable wiki that grows alongside a codebase. Addresses the problem of LLMs losing context across long projects by maintaining a living knowledge graph that agents can read and write to.
+Observability and documentation for a codebase, shipped as an agent skill for Claude Code, Gemini CLI, Cursor and other LLM tools. Keeps a living, LLM-maintained wiki that explains what the code does and why, and flags comments, TODOs and existing docs that the code has since contradicted. Capture is built into the development workflow so the docs stay in sync with the code, and a static site generator publishes the wiki as a browsable site. It started from finding it a chore to keep documentation updated, and is growing into a sidecar companion that observes the codebase.
+
+## Chrome Extensions
+
+### OOTD Transcript Downloader
+URL: nick-tan.com/ootd-transcript-downloader
+Status: Active
+
+A browser extension that downloads YouTube transcripts in one click so they can be fed straight into an AI. Runs locally; data never leaves the user's machine.
 
 ### Data Bouncer
 URL: nick-tan.com/data-bouncer
 Status: Active
 
 A browser extension that converts and sanitizes webpages and articles into clean markdown formats optimized for LLM ingestion. Strips noise (ads, nav, boilerplate) and produces structured markdown that modern language models can process accurately.
-
-### Krema
-URL: trykrema.netlify.app
-Status: Currently building
-
-An organizational intelligence platform that transforms KPIs and 1-1 meeting notes into structured team alignment data and actionable insights. Designed for managers and team leads who need to turn unstructured conversation data into measurable progress signals.
-
-Tech stack: Next.js 16, TypeScript, Postgres, Supabase, Prisma ORM, Tailwind CSS.
-
-### Scarab
-URL: tryscarab.netlify.app
-Status: On hold
-
-A conversational project ledger that transforms chaotic chat history into structured, verifiable decision logs and automated task tracking. Ingests Telegram or chat threads and produces a clean audit trail of decisions, owners, and due dates.
-
-Tech stack: TypeScript, Node.js, Grammy (Telegram bot framework), Redis, Postgres, LangChain.
 
 ## Interests & Conversation Topics
 
@@ -79,7 +71,7 @@ Tech stack: TypeScript, Node.js, Grammy (Telegram bot framework), Redis, Postgre
 
 ## Contact
 
-Reach out for: project collaborations, consulting on e-commerce operations, discussing AI tooling, or just to chat.
+Reach out for: roles, consulting on AI or operations, project collaborations, or just to chat.
 
 - Email: nick.tan.xs@gmail.com
 - LinkedIn: linkedin.com/in/nicktanxs

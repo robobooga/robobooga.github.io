@@ -32,11 +32,12 @@ npm run preview
 
 **Content Sections (in order):**
 1. Hero - Introduction with availability status badge
-2. Expertise - Four core areas: Operations, Strategy, Systems, Product
+2. Expertise - Four core areas: Systems, AI, Operations, Product
 3. Talk - Topics of interest displayed as tags
 4. Ventures - Three business ventures with external links
-5. Projects - Current development projects (Scarab, NoLag Tool)
-6. Contact - Email and LinkedIn links
+5. Projects - Current development projects (Ourobor-OS)
+6. Extensions - Chrome extensions (OOTD Transcript Downloader, Data Bouncer)
+7. Contact - Email and LinkedIn links
 
 **Design System:**
 - Soft dark theme with CSS variables defined in `:root`
